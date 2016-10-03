@@ -1,11 +1,15 @@
 ---
 title: Chris Enns
 date: 2016-03-17 14:56:00 -06:00
-Website: http://www.chrisenns.com
-Twitter: iChris
+website: http://chrisenns.com
+twitter: iChris
+email: chris.enns@gmail.com
+image: "/uploads/ichris.jpg"
+is host: true
+layout: person
 ---
 
-Visit my [blog](http://chrisenns.com) for more about me but suffice to say I love podcasting. I’m pumped to be building GoodStuff with Adam, Tim and the rest of the crew who are dumping their mad audio skills into this thing.
+Visit my [blog](http://chrisenns.com) for more about me but suffice to say I love podcasting.
 
 ## Want to Support Me?
 

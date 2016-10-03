@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Page Information -->
+{% include head.html %}
+
+<body>
+
+<!-- Navigation Bar -->
+{% include nav.html %}
+
+<h1 class="page__header">People</h1>
+<p class="page__description">{{ content }}</p>
+
+<hr>
+
+<!-- List of Hosts -->
+<div class="hosts">
+
+  {% for doc in site.people %}
+
+  <ul class="hosts__list">
+    <li class="hosts__list__image"><a href="{{ doc.url }}"><img src="{{ doc.image }}" alt="Photo of {{ doc.title }}" height="100" width="100"/></a></li>
+    <li class="hosts__list__name"><h3><a href="{{ doc.url }}">{{ doc.title }}</a></h3></li>
+  </ul>
+
+  {% endfor %}
+
+</div>
+
+
+<!-- Footer -->
+{% include footer.html %}
+
+
+</body>
+
+</html>

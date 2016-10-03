@@ -1,26 +1,98 @@
 ---
 title: Goodstuffv2
-url: http://goodstuffv2.siteleaf.net
 timezone: America/Regina
 collections:
   3g3q:
     title: 3G3Q
     output: true
+    permalink: "/3g3q"
+    name: 3 Guys 3 Questions
+    hosts:
+    - Aaron Goodwin
+    - Andrew Savage
+    - Adam Anderson
+    description: Three guys ponder the finer things in life by asking each other weird
+      questions. Each week they compete to seem the most normal while answering questions
+      about fears, pet-peeves, and idiosyncrasies.
+    image: "/uploads/broadcast_thumbnail_3g3q_artwork.png"
+    color: "#6B4AD3"
+    Twitter Handle: _3g3q
+    Contact Email: 3guys3questions@gmail.com
+    keywords: comedy, 3 guys, three guys, 3g3q, wolverine room, buddy box, juggalo,
+      lightning round
+    RSS: http://feed.3g3q.co/
+    iTunes: https://itunes.apple.com/us/podcast/3-guys-3-questions/id914129482
   dailyish:
     title: Daily(ish)
     output: true
+    permalink: "/dailyish"
+    name: Daily(ish)
+    hosts: Chris Enns
+    description: Just as it says on the tin – this is a daily(ish) podcast from Chris
+      Enns.
+    image: "/uploads/broadcast_thumbnail_dailyish_artwork.jpg"
+    color: "#757474"
+    keywords: tech, technology, personal, journal, family, life
+    Twitter Handle: ichris
+    Contact Email: chris@goodstuff.fm
+    RSS: http://feeds.goodstuff.fm/dailyish
+    iTunes: https://itunes.apple.com/ca/podcast/pdcst/id815675012
+    Support Link: http://www.patreon.com/ichris
+    Pocket Casts URL: http://pca.st/Vifv
+    Overcast URL: https://overcast.fm/itunes815675012/daily-ish
+  grownups:
+    title: I Guess We're Grown-Ups Now
+    output: true
+    permalink: "/grownups"
+    name: I Guess We're Grown-Ups Now
+    hosts: Kari Halsted, Brook Shelly
+    description: A podcast about being the kind of grown-ups we want to be. The answers
+      are better than the questions.
+    image: "/uploads/broadcast_thumbnail_grownups_artwork.png"
+    keywords: adulthood
+    Twitter Handle: grownups_fm
+    Contact Email: kayayarai+grownups@gmail.com
+    iTunes: https://itunes.apple.com/us/podcast/i-guess-were-grown-ups-now/id920093038?mt=2
+    RSS: http://feeds.goodstuff.fm/grownups
   morningshow:
     title: Morning Show
     output: true
-    Description: Good Morning, Internet! We cover the latest news in robots, food,
+    permalink: "/morningshow/:path"
+    retired: 'yes'
+    name: Morning Show
+    hosts:
+    - Kyle Roderick
+    - Kenny Roderick
+    description: Good Morning, Internet! We cover the latest news in robots, food,
       technology, and culture. Live MWF 7-8AM Pacific.
-    Keywords: tech, technology, science, fun, morning show, morning, radio, pop culture,
+    keywords: tech, technology, science, fun, morning show, morning, radio, pop culture,
       Kyle, Kenny, Roderick
-    Twitter Handle: morningshowam
-    Contact Email: kyle@goodstuff.fm
+    twitter: morningshowam
+    email: kyle@goodstuff.fm
+    image: "/uploads/iTunes Artwork.png"
+    color: "#F8C023"
+    iTunes: https://itunes.apple.com/us/podcast/morning-show/id843374491?mt=2
+    RSS: http://feeds.goodstuff.fm/transmission
+  nbsp:
+    title: Non Breaking Space Show
+    output: true
+    permalink: "/nbsp"
+    name: Non Breaking Space Show
+    description: Seeking out the best, brightest, and smartest creative people on
+      digital art, design, and development. From workflows to life hacks, we examine
+      why they do what they do and how they did it.
+    image: "/uploads/broadcast_thumbnail_nbsp_artwork.jpg"
+    hosts: Christopher Schmitt
+    keywords: tech, technology, web, design, interviews
+    Twitter Handle: nbsptv
+    Contact Email: chris@goodstuff.fm
+    iTunes: http://itunes.apple.com/us/podcast/the-non-breaking-space-show/id507162981
+    RSS: http://feeds.goodstuff.fm/nbsp
+    Color: "#539951"
   people:
     title: People
     output: true
+    permalink: "/people/:title/"
   posts:
     title: Posts
     output: true
@@ -39,8 +111,15 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: ''
+    type: morningshow
+  values:
+    layout: episodes
 permalink: pretty
 Goodstuff Twitter: https://twitter.com/goodstufffm
+logo: "/assets/logo-small.svg"
+sass:
+  sass_dir: "./styles"
 gems:
 - jekyll-sitemap
-- jekyll-rss

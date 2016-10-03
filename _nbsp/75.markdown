@@ -1,0 +1,13 @@
+---
+title: '75'
+---
+
+* **[21:20](#t=21:20)** → Lessons learned in making games over a long time.
+* **[30:30](#t=30:30)** → What's the baseline for getting coverage for your game?
+* **[31:00](#t=31:00)** → What language are Pixel Jam using for their new games?
+* **[33:00](#t=33:00)** → Any changes in tools used for editing graphics for games?
+* **[34:40](#t=34:40)** → Using Kickstarter and crowdsourcing sites for game development.
+* **[40:00](#t=40:00)** → Find out how many Kickstarter projects Christopher Schmitt has backed.
+* **[45:20](#t=45:20)** → PixelJam's ideas on building better crowdsourcing apps.
+* **[51:00](#t=51:00)** → Talking through the desperation of crowdfunding campaigns.
+* **[53:00](#t=53:00)** → What's PixelJam's next project?
