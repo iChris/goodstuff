@@ -1,97 +1,254 @@
-// Typography
+// Type
 //
-// Headings, body text, lists, and other misc typographic elements.
+// Styles for fonts, weights, sizes, and other font-related styles.
 
-// Headings
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
-}
+.latest-episode {
 
-// Body text
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+  &__header {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+  }
 
-strong {
-  color: #303030;
-}
+  &__details {
 
-// Lists
-ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
+    &__show {
+      font-size: 1.4rem;
+      font-weight: 500;
+    }
 
-dt {
-  font-weight: bold;
-}
-dd {
-  margin-bottom: .5rem;
-}
+    &__title a {
+      color: inherit;
+      font-size: 2.3rem;
+      text-decoration: none;
+      font-weight: 700;
+    }
 
-// Misc
-hr {
-  position: relative;
-  margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+    &__date {
+      font-size: .95rem;
+      opacity: .6;
+    }
+
+    &__description {
+      font-size: 1.1rem;
+    }
+
+    &__listen a {
+      float: left;
+      max-width: 50%;
+      border-radius: 4pt;
+      color: white;
+      font-size: 1.1rem;
+      background: #DA5647;
+      padding: 10pt 20pt 10pt 20pt;
+      border: solid #C4392E 1pt;
+      text-decoration: none;
+    }
+
+    &__listen:hover a {
+      background: #C4392E;
+      text-decoration: none;
+    }
+
+  }
+
 }
 
-abbr {
-  font-size: 85%;
-  font-weight: bold;
-  color: #555;
-  text-transform: uppercase;
-}
-abbr[title] {
-  cursor: help;
-  border-bottom: 1px dotted #e5e5e5;
+.header {
+  height: 70pt;
+  vertical-align: middle;
+  line-height: 70pt;
+
+  &__list {
+
+    &__item {
+      font-size: 1rem;
+      color: #969DAF;
+    }
+
+    &__link {
+      text-decoration: none;
+    }
+
+  }
+
 }
 
-/* Quotes */
-blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+.recent-episodes {
 
-  @media (min-width: 30em) {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
+  &__header {
+    color: #4A5160;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+  }
+
+  &__list {
+    text-align: center;
+  }
+
+  &__title a {
+    color: #4A5160;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  &__date {
+    color: $bright-red;
+    font-size: .85rem;
+  }
+
+}
+
+.our-shows {
+
+  &__header {
+    color: #4A5160;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+  }
+
+  &__list a {
+    color: #4A5160;
+    font-size: .8rem;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  &__title {
+    text-align: center;
+  }
+
+}
+
+.page {
+
+  &__header {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: $blue;
+  }
+
+  &__subheader {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $light-blue;
+  }
+
+  &__rule {
+    border: 0;
+    height: 0;
+    border-top: 1px $light-gray;
+    border-bottom: 1px solid $light-gray;
+  }
+
+  &__description {
+    font-size: 1.05rem;
+    font-weight: 400;
+    color: $light-blue;
+    line-height: 1.6rem;
+    a {
+      color: $bright-red;
+      text-decoration: none;
+    }
+  }
+
+}
+
+.broadcasts {
+
+  &__list {
+
+    &__name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: $dark-blue;
+      a {
+        color: $bright-red;
+        text-decoration: none;
+      }
+    }
+
+    &__hosts {
+      font-size: .95rem;
+      font-weight: 700;
+      color: $blue;
+    }
+
+    &__description {
+      font-size: 1.05rem;
+      font-weight: 400;
+      color: $light-blue;
+      line-height: 1.6rem;
+    }
+
+    &__link {
+      font-size: .95rem;
+      font-weight: 600;
+      color: $light-blue;
+      a {
+        color: $bright-red;
+        text-decoration: none;
+        font-weight: 400;
+      }
+    }
+
   }
 }
 
-blockquote p:last-child {
-  margin-bottom: 0;
+.hosts {
+
+  &__list {
+
+    &__name a {
+      font-size: .85rem;
+      color: $bright-red;
+      text-decoration: none;
+    }
+  }
 }
 
+.footer {
+  color: white;
 
-// Custom type
-//
-// Extend paragraphs with `.lead` for larger introductory text.
+  &__left {
 
-.lead {
-  font-size: 1.25rem;
-  font-weight: 300;
+    &__description {
+      color: #969DAF;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.6rem;
+    }
+
+    &__copyright {
+      color: #969DAF;
+      font-weight: 700;
+    }
+
+    &__link {
+    }
+
+  }
+
+  &__right {
+
+    &__header {
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    &__page a {
+      color: #60697D;
+      font-size: .9rem;
+      text-decoration: none;
+    }
+
+  }
+
 }
