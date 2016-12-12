@@ -5,7 +5,8 @@ collections:
   3g3q:
     title: 3G3Q
     output: true
-    permalink: "/3g3q/:path/"
+    permalink: "/3g3q/:path"
+    slug: 3g3q
     live: true
     name: 3 Guys 3 Questions
     hosts:
@@ -26,7 +27,8 @@ collections:
   dailyish:
     title: Daily(ish)
     output: true
-    permalink: "/dailyish/:path/"
+    permalink: "/dailyish/:path"
+    slug: dailyish
     name: Daily(ish)
     hosts:
     - Chris Enns
@@ -37,15 +39,16 @@ collections:
     keywords: tech, technology, personal, journal, family, life
     Twitter Handle: ichris
     Contact Email: chris@goodstuff.fm
+    supportlink: http://www.patreon.com/ichris
     RSS: http://feeds.goodstuff.fm/dailyish
-    iTunes: https://itunes.apple.com/ca/podcast/pdcst/id815675012
-    Support Link: http://www.patreon.com/ichris
-    Pocket Casts URL: http://pca.st/Vifv
-    Overcast URL: https://overcast.fm/itunes815675012/daily-ish
+    itunes: https://itunes.apple.com/ca/podcast/pdcst/id815675012
+    pocketcast: http://pca.st/Vifv
+    overcast: https://overcast.fm/itunes815675012/daily-ish
   grownups:
     title: I Guess We're Grown-Ups Now
     output: true
-    permalink: "/grownups/:path/"
+    permalink: "/grownups/:path"
+    slug: grownups
     name: I Guess We're Grown-Ups Now
     hosts: Kari Halsted, Brook Shelly
     description: A podcast about being the kind of grown-ups we want to be. The answers
@@ -59,7 +62,8 @@ collections:
   morningshow:
     title: Morning Show
     output: true
-    permalink: "/morningshow/:path/"
+    permalink: "/morningshow/:path"
+    slug: morningshow
     retired: 'yes'
     name: Morning Show
     hosts:
@@ -71,14 +75,15 @@ collections:
       Kyle, Kenny, Roderick
     twitter: morningshowam
     email: kyle@goodstuff.fm
-    image: "/uploads/iTunes Artwork.png"
+    image: "/uploads/broadcast_thumbnail_morningshow_artwork.png"
     color: "#F8C023"
     iTunes: https://itunes.apple.com/us/podcast/morning-show/id843374491?mt=2
     RSS: http://feeds.goodstuff.fm/transmission
   nbsp:
     title: Non Breaking Space Show
     output: true
-    permalink: "/nbsp/:path/"
+    permalink: "/nbsp/:path"
+    slug: nbsp
     name: Non Breaking Space Show
     description: Seeking out the best, brightest, and smartest creative people on
       digital art, design, and development. From workflows to life hacks, we examine
@@ -94,7 +99,7 @@ collections:
   people:
     title: People
     output: true
-    permalink: "/people/:title/"
+    permalink: "/people/:title"
   posts:
     title: Posts
     output: true
@@ -107,7 +112,7 @@ defaults:
     type: posts
   values:
     layout: post
-    permalink: "/posts/:title/"
+    permalink: "/posts/:title"
 - scope:
     path: ''
     type: pages
@@ -118,6 +123,11 @@ defaults:
     type: morningshow
   values:
     layout: episodes
+subtitle: your-podcast-subtitle
+url: http://goodstuff.fm
+email: contact@goodstuff.fm
+lang: EN
+author: Goodstuff Broadcasting
 permalink: pretty
 Goodstuff Twitter: https://twitter.com/goodstufffm
 logo-small: "/assets/logo-small.svg"
