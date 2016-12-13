@@ -2,6 +2,7 @@
 title: Chris Enns
 date: 2016-03-17 14:56:00 -06:00
 position: 0
+name: Chris Enns
 website: http://chrisenns.com
 twitter: iChris
 email: chris.enns@gmail.com
