@@ -5,34 +5,42 @@
 .latest-episode {
 
   &__header {
-    color: white;
-    font-size: 1rem;
+    font-size: 2.2rem;
     font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .05rem;
+    color: $blue;
   }
 
   &__details {
 
     &__show {
-      font-size: 1.4rem;
+      color: $light-blue;
+      font-size: 1.3rem;
       font-weight: 500;
     }
 
     &__title a {
-      color: inherit;
-      font-size: 2.3rem;
+      color: $bright-red;
+      font-size: 2.0rem;
       text-decoration: none;
       font-weight: 700;
     }
 
     &__date {
+      color: $blue;
       font-size: .95rem;
       opacity: .6;
     }
 
+    &__hosts {
+      font-size: .95rem;
+      font-weight: 700;
+      color: $blue;
+    }
+
     &__description {
-      font-size: 1.1rem;
+      font-size: 1rem;
+      color: $light-blue;
+      line-height: 1.7rem;
     }
 
     &__listen a {
@@ -62,6 +70,15 @@
   line-height: 70pt;
 
   &__list {
+
+    &__live a {
+      text-transform: uppercase;
+      background-color: $bright-red;
+      color: white;
+      font-weight: 700;
+      padding: 8pt;
+      border-radius: 4pt;
+    }
 
     &__item {
       font-size: 1rem;
@@ -149,14 +166,91 @@
   }
 
   &__description {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     font-weight: 400;
     color: $light-blue;
-    line-height: 1.6rem;
+    line-height: 180%;
+
     a {
       color: $bright-red;
       text-decoration: none;
     }
+
+    p {
+      padding-bottom: 16pt;
+    }
+
+    h1 {
+      font-size: 1.4em;
+      font-weight: 600;
+      color: $blue;
+      padding-top: 12pt;
+      padding-bottom: 4pt;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      color: $blue;
+      font-weight: 600;
+      padding-top: 12pt;
+      padding-bottom: 4pt;
+
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding-top: 8pt;
+      padding-bottom: 4pt;
+      color: $blue;
+    }
+
+    h4 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding-top: 8pt;
+      padding-bottom: 4pt;
+      color: $light-blue;
+    }
+
+    h5 {
+      font-size: 1rem;
+      font-weight: 700;
+      padding-top: 8pt;
+      padding-bottom: 4pt;
+      color: $light-blue;
+      text-transform: uppercase;
+    }
+
+    ul {
+      list-style: disc;
+      padding-left: 2pt;
+      color: $blue;
+      padding-bottom: 10pt;
+    }
+
+    ol {
+      padding: 20px;
+    }
+
+
+    ol li {
+      margin-left: 35px;
+    }
+
+    ul li {
+      margin-left: 15pt;
+      color: $light-blue;
+    }
+
+    hr {
+      border: 0;
+      height: 0;
+      border-top: 1px $light-gray;
+      border-bottom: 1px solid $light-gray;
+    }
+
+
   }
 
 }
@@ -185,7 +279,7 @@
       font-size: 1.05rem;
       font-weight: 400;
       color: $light-blue;
-      line-height: 1.6rem;
+      line-height: 1.7rem;
     }
 
     &__link {
@@ -247,7 +341,7 @@
       font-size: 1rem;
       padding-top: 8pt;
       padding-bottom: 8pt;
-      line-height: 1.5rem;
+      line-height: 1.7rem;
     }
 
 
@@ -268,7 +362,7 @@
 
   &__title {
     font-size: 2.3rem;
-    color: $bright-red;
+    color: $blue;
     font-weight: 700;
     padding-bottom: 16pt;
     padding-top: 16pt;
@@ -301,16 +395,22 @@
     background-color: $light-gray;
     color: $light-blue;
     font-size: 1rem;
-    line-height: 1.5rem;
     border-radius: 4pt;
+    height: auto;
+
     &__header {
       font-weight: 700;
-      line-height: normal;
+      line-height: 20pt;
       a {
         color: $bright-red;
         text-decoration: none;
         font-weight: 700;
       }
+    }
+
+    &__copy {
+      padding-top: 12pt;
+      line-height: 20pt;
     }
   }
 

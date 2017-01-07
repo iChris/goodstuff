@@ -18,17 +18,40 @@
 <!-- List of Shows -->
 <div class="broadcasts">
 
-  {% assign show = collection.label %}
-  {% for collection in site.collections %}
-  {% unless collection.label == 'people' or collection.label == 'posts' or collection.label == 'uploads' or collection.retired == 'yes' %}
+  {% assign master = site.data.shows.master %}
 
   <ul class="broadcasts__list">
-    <li class="broadcasts__list__artwork"><a href="/{{ collection.slug }}"><img src="{{ collection.image }}" alt="Artwork" height="100" width="100"/></a></li>
-    <li class="broadcasts__list__name"><h3><a href="/{{ collection.slug }}">{{ collection.name }}</a></h3></li>
-    <li class="broadcasts__list__hosts">Hosted by {{ collection.hosts | join: ', ' }}</li>
-    <li class="broadcasts__list__description">{{ collection.description | truncate: 256 }}</li>
+    <li class="broadcasts__list__artwork"><img src="{{ master.artwork }}" alt="Artwork" height="100" width="100"/></a></li>
+    <li class="broadcasts__list__name"><h3>{{ master.name }}</h3></li>
+    <li class="broadcasts__list__hosts">Hosted by {{ master.hosts }}</li>
+    <li class="broadcasts__list__description">{{ master.description }}</li>
 
-    <li class="broadcasts__list__link"><a href="{{ collection.itunes }}" title="Subscribe in iTunes"><img src="https://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg" alt="Subscribe in iTunes"></a> <a href="{{ collection.pocketcast }}" title="Subscribe in Pocket Casts"><img src="http://www.shiftyjelly.com/images/resources/pc_icon_small@2x.png" alt="Subscribe in Pocket Casts"></a> <a href="{{ collection.overcast }}" title="Subscribe in Overcast">Overcast Icon Here</a> <a href="{{ collection.rss }}" title="Subscribe via RSS"><i class="fa fa-rss fa-3x" aria-hidden="true"></i></a></li>
+    <li class="broadcasts__list__link">
+      <a href="{{ master.itunes }}" title="Subscribe in iTunes"><img src="/assets/subscribe-itunes@2x.png" alt="Subscribe in iTunes"></a>
+      <a href="{{ master.pocketcasts }}" title="Subscribe in Pocket Casts"><img src="/assets/subscribe-pocketcasts@2x.png" alt="Subscribe in Pocket Casts"></a>
+      <a href="{{ master.overcast }}" title="Subscribe in Overcast"><img src="/assets/subscribe-overcast@2x.png" alt="Subscribe in Overcast"></a>
+      <a href="{{ master.rss }}" title="Subscribe via RSS"><img src="/assets/subscribe-rss@2x.png" alt="Subscribe to RSS Feed"></a>
+    </li>
+  </ul>
+
+<hr class="page__rule">
+
+  {% for collection in site.collections %}
+  {% unless collection.label == 'people' or collection.label == 'posts' or collection.label == 'uploads' or collection.retired == true %}
+  {% assign show = site.data.shows[collection.label] %}
+
+  <ul class="broadcasts__list">
+    <li class="broadcasts__list__artwork"><a href="/{{ show.collection }}"><img src="{{ show.artwork }}" alt="Artwork" height="100" width="100"/></a></li>
+    <li class="broadcasts__list__name"><h3><a href="/{{ show.collection }}">{{ show.name }}</a></h3></li>
+    <li class="broadcasts__list__hosts">Hosted by {{ show.hosts | join: ', ' }}</li>
+    <li class="broadcasts__list__description">{{ show.description | truncate: 256 }}</li>
+
+    <li class="broadcasts__list__link">
+      <a href="{{ show.itunes }}" title="Subscribe in iTunes"><img src="/assets/subscribe-itunes@2x.png" alt="Subscribe in iTunes"></a>
+      <a href="{{ show.pocketcasts }}" title="Subscribe in Pocket Casts"><img src="/assets/subscribe-pocketcasts@2x.png" alt="Subscribe in Pocket Casts"></a>
+      <a href="{{ show.overcast }}" title="Subscribe in Overcast"><img src="/assets/subscribe-overcast@2x.png" alt="Subscribe in Overcast"></a>
+      <a href="{{ show.rss }}" title="Subscribe via RSS"><img src="/assets/subscribe-rss@2x.png" alt="Subscribe to RSS Feed"></a>
+    </li>
   </ul>
 
 <hr class="page__rule">
@@ -43,17 +66,23 @@
 
   <h2 class="page__subheader">Retired Broadcasts</h2>
 
-  {% assign show = collection.label %}
   {% for collection in site.collections %}
   {% unless collection.label == 'people' or collection.label == 'posts' or collection.label == 'uploads' %}
-  {% if collection.retired == 'yes' %}
+  {% assign show = site.data.shows[collection.label] %}
+  {% if collection.retired == true %}
 
   <ul class="broadcasts__list">
-    <li class="broadcasts__list__artwork"><a href="/{{ collection.slug }}"><img src="{{ collection.image }}" alt="Artwork" height="100" width="100"/></a></li>
-    <li class="broadcasts__list__name"><h3><a href="/{{ collection.slug }}">{{ collection.name }}</a></h3></li>
-    <li class="broadcasts__list__hosts">Hosted by {{ collection.hosts | join: ', ' }}</li>
-    <li class="broadcasts__list__description">{{ collection.description }}</li>
-    <li class="broadcasts__list__link"><a href="{{ collection.itunes }}" title="Subscribe in iTunes"><img src="https://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg" alt="Subscribe in iTunes"></a> <a href="{{ collection.pocketcast }}" title="Subscribe in Pocket Casts"><img src="http://www.shiftyjelly.com/images/resources/pc_icon_small@2x.png" alt="Subscribe in Pocket Casts"></a> <a href="{{ collection.overcast }}" title="Subscribe in Overcast">Overcast Icon Here</a> <a href="{{ collection.rss }}" title="Subscribe via RSS"><i class="fa fa-rss fa-3x" aria-hidden="true"></i></a></li>
+    <li class="broadcasts__list__artwork"><a href="/{{ show.collection }}"><img src="{{ show.artwork }}" alt="Artwork" height="100" width="100"/></a></li>
+    <li class="broadcasts__list__name"><h3><a href="/{{ show.collection }}">{{ show.name }}</a></h3></li>
+    <li class="broadcasts__list__hosts">Hosted by {{ show.hosts | join: ', ' }}</li>
+    <li class="broadcasts__list__description">{{ show.description }}</li>
+    <li class="broadcasts__list__link">
+      <a href="{{ show.itunes }}" title="Subscribe in iTunes"><img src="/assets/subscribe-itunes@2x.png" alt="Subscribe in iTunes"></a>
+      <a href="{{ show.pocketcasts }}" title="Subscribe in Pocket Casts"><img src="/assets/subscribe-pocketcasts@2x.png" alt="Subscribe in Pocket Casts"></a>
+      <a href="{{ show.overcast }}" title="Subscribe in Overcast"><img src="/assets/subscribe-overcast@2x.png" alt="Subscribe in Overcast"></a>
+      <a href="{{ show.rss }}" title="Subscribe via RSS"><img src="/assets/subscribe-rss@2x.png" alt="Subscribe to RSS Feed"></a>
+    </li>
+    </li>
   </ul>
 
   <hr class="page__rule">
