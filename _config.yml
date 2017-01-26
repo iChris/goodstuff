@@ -6,6 +6,7 @@ collections:
     title: 3G3Q
     output: true
     permalink: "/3g3q/:path"
+    slug: 3g3q
     retired: false
     live: false
   aux:
@@ -18,6 +19,8 @@ collections:
     title: Daily(ish)
     output: true
     permalink: "/dailyish/:path"
+    description: Just as it says on the tin this is a daily(ish) podcast from Chris
+      Enns.
     retired: false
     live: false
   specials:
@@ -94,7 +97,69 @@ defaults:
     path: ''
     type: morningshow
   values:
-    layout: episodes
+    layout: episode
+    mp3: 
+    episode: 
+    description: 
+    sponsor: FeedPress
+    sponsor-link: http://feed.press/morningshow
+    sponsor-copy: Hosting and feed support provided by Feed.Press. Sign-up today and
+      try FeedPress on a 14 day trial (no contracts or commitments). Use promo code
+      `morningshow` during checkout to get 10% off your first year.
+    show: morningshow
+- scope:
+    path: ''
+    type: atu2
+  values:
+    layout: episode
+    mp3: 
+    episode: 
+    description: 
+    sponsor: FeedPress
+    sponsor-link: http://feed.press/atu2
+    sponsor-copy: Hosting and feed support provided by Feed.Press. Sign-up today and
+      try FeedPress on a 14 day trial (no contracts or commitments). Use promo code
+      `atu2` during checkout to get 10% off your first year.
+    show: atu2
+- scope:
+    path: ''
+    type: 3g3q
+  values:
+    layout: episode
+    mp3: 
+    episode: 
+    description: 
+    sponsor: Our fantastic patrons
+    sponsor-link: http://www.patreon.com/3g3q
+    sponsor-copy: Join them on Patreon to get access to exclusive bonus material,
+      access to the StuffySlack, and other extras.
+    show: 3g3q
+- scope:
+    path: ''
+    type: grownups
+  values:
+    episode: 
+    mp3: http://podcasts-1.feedpress.co/10589/grownups-000.mp3
+    description: 
+    sponsor: Campaign Monitor
+    sponsor-link: http://www.campaignmonitor.com/
+    sponsor-copy: Tell them you heard about it on Goodstuff
+    show: grownups
+    layout: episode
+- scope:
+    path: ''
+    type: dailyish
+  values:
+    episode: 
+    mp3: http://podcasts-1.feedpress.co/10587/dailyish-00.mp3
+    description: Just as it says on the tin this is a daily(ish) podcast from Chris
+      Enns.
+    sponsor: FeedPress
+    sponsor-link: http://feed.press/dailyish
+    sponsor-copy: Hosting and feed support provided by Feed.Press. Sign-up today and
+      try FeedPress on a 14 day trial (no contracts or commitments). Use promo code
+      `dailyish` during checkout to get 10% off your first year.
+    show: dailyish
 include:
 - _pages
 itunes-subtitle: your-podcast-subtitle
@@ -104,12 +169,14 @@ itunes-lang: EN
 itunes-author: Goodstuff Broadcasting
 permalink: pretty
 Goodstuff Twitter: https://twitter.com/goodstufffm
+twitter: goodstufffm
 logo-small: "/assets/logo-small.svg"
 logo: "/assets/logo.svg"
-description: The internet’s favorite shows on technology, culture, news and more.
+description: The internet’s favorite shows on technology, culture, news, and more.
   You know, just the good stuff.
-copyright: "© 2014–2016 Goodstuff Broadcasting"
+copyright: "© 2014–2017 Goodstuff Broadcasting"
 sass:
   sass_dir: "./styles"
 gems:
 - jekyll-sitemap
+- jekyll-seo-tag
