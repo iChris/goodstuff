@@ -19,13 +19,8 @@ layout: episode
 
 ## What are your 5 desert island DVD's? -JenTen via Voicemail
 
-<<<<<<< HEAD
 ## "CMYK, RGB, or something else?" -[@ahuster via Twitter](http://twitter.com/ahuster/status/600341461847113729)
 -[HSV](https://en.wikipedia.org/wiki/HSL_and_HSV)
-=======
-## "CMYK, RGB, or something else?" -- [@ahuster via Twitter](http://twitter.com/ahuster/status/600341461847113729)
-- [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV)
->>>>>>> parent of ddae6ac... Running markdown linter
 
 ***
 
