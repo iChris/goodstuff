@@ -85,16 +85,23 @@ podcast_subtitle: A network of good shows with good people doing good things
 podcast-url: http://goodstuff.fm
 podcast_email: contact@goodstuff.fm
 podcast_owner: Goodstuff.fm
+itunes-subtitle: A network of good shows with good people doing good things
+itunes-url: http://goodstuff.fm
+itunes-email: contact@goodstuff.fm
+itunes-lang: EN
+itunes-author: Goodstuff.fm
 permalink: pretty
 Goodstuff Twitter: https://twitter.com/goodstufffm
-itunes: https://itunes.apple.com/us/artist/goodstuff-fm/id843385597?mt=2
-reddit: https://www.reddit.com/r/Goodstuff_fm/
 twitter: goodstufffm
 logo-small: "/assets/logo-small.svg"
 logo: "/assets/logo.svg"
-description: The internet's favorite shows on technology, culture, news, and more.
+description: The internet’s favorite shows on technology, culture, news, and more.
   You know, just the good stuff.
-copyright: "© 2014‐2017 Goodstuff Broadcasting"
+copyright: "© 2014–2017 Goodstuff Broadcasting"
+exclude:
+- README.markdown
+- Gemfile.lock
+- Gemfile
 sass:
   sass_dir: "./styles"
 include:

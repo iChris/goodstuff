@@ -13,14 +13,15 @@ sponsor-link: http://feed.press/grownups
 sponsor-copy: Hosting and feed support provided by Feed.Press. Sign-up today and try
   FeedPress on a 14 day trial (no contracts or commitments). Use promo code grownups
   during checkout to get 10% off your first year.
+show: grownups
 layout: episode
 ---
 
--[Kayleigh on Twitter][1]
+* [Kayleigh on Twitter][1]
 
--[OUTSaskatoon][2]
+* [OUTSaskatoon][2]
 
--[When someone selects "it's complicated," just think of this chart.][3]
+* [When someone selects "it's complicated," just think of this chart.][3]
 
 Amazing.
 
