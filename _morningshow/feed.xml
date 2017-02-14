@@ -58,7 +58,7 @@ layout:
     <itunes:explicit>{{ doc.explicit }}</itunes:explicit>
     <itunes:block>{{ doc.block }}</itunes:block>
     <content:encoded>
-      <![CDATA[{{ doc.content | xml_escape }}]]>
+      <![CDATA[{{ doc.content | cdata_escape }}]]>
     </content:encoded>
   </item>
 {% endunless %}
