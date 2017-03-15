@@ -1,6 +1,10 @@
 ---
 title: "⏰ Clockworks on Goodstuff"
 date: 2017-03-15 13:03:00 -06:00
+tags:
+- site news
+- tv
+layout: default
 ---
 
 More new Goodstuff news! We've got a brand new show premiering this week on Goodstuff - [Clockworks](http://goodstuff.fm/clockworks/) is a podcast that is discussing the new FX show Legion:
@@ -55,7 +59,7 @@ Thanks Jan and Paul! Now go subscribe and listen to Clockworks - 2 episodes of t
 
 Be sure to follow the show and/or hosts on Twitter:
 
-* @Clockworkscast on Twitter](https://twitter.com/clockworkscast)
+* [@Clockworkscast on Twitter](https://twitter.com/clockworkscast)
 * [@Jayellemo](https://twitter.com/jayellemo)
 * [@thatpaulmoffett](https://twitter.com/thatpaulmoffett)
 
