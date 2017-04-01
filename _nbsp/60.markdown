@@ -1,5 +1,5 @@
 ---
-title: Simon St. Laurent - JavaScript, SVG, and The Web
+title: Simon St. Laurent — JavaScript, SVG, and The Web
 date: 2015-12-14 12:11:00 -06:00
 description: Simon St. Laurent is back to talk about the rise of JavaScript, SVG,
   and we take a look at what we saw this past month in the web space (and more) and
@@ -12,6 +12,8 @@ sponsor-copy: Hosting and feed support provided by Feed.Press.  Sign-up today an
 episode: 60
 show: nbsp
 mp3: http://podcasts-1.feedpress.co/10609/nbsp-60.mp3
+video: <iframe width="560" height="315" src="https://www.youtube.com/embed/hCf5GjZ2A2Q"
+  frameborder="0" allowfullscreen></iframe>
 layout: episode
 ---
 
