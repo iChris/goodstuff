@@ -1,5 +1,6 @@
 ---
-title: Simon St. Laurent — Top 6 Tech News Countdown
+title: Simon St. Laurent — Google I/O Fallout, Instagram Logo, WordPress' age, and
+  More
 date: 2016-05-31 12:11:00 -06:00
 description: Simon St. Laurent from O'Reilly Media joins us for a look at the past
   week as get caught up on technology news, web building resources, and social commentary.
@@ -14,6 +15,8 @@ sponsor-copy: Hosting and feed support provided by Feed.Press.  Sign-up today an
 episode: 80
 show: nbsp
 mp3: http://podcasts-1.feedpress.co/10609/nbsp-80.mp3
+video: <iframe width="560" height="315" src="https://www.youtube.com/embed/lNvxRmQhpig"
+  frameborder="0" allowfullscreen></iframe>
 layout: episode
 ---
 
