@@ -3,7 +3,7 @@ title: 'Goodstuff Monthly: March 2017'
 date: 2017-04-07 10:16:00 -06:00
 ---
 
-As part of our relaunch we thought we'd be a little more public with things podcasters often tend to be a little shy about sharing: numbers and stats.
+As part of [our relaunch](https://goodstuff.fm/2017/03/11/goodstuff-v3/) we thought we'd be a little more public with things podcasters often tend to be a little shy about sharing: numbers and stats.
 
 At the start of each month we'll tell you how Goodstuff is doing - number of patrons, listeners, site visitors, and anything else you'd like to know.
 
@@ -13,6 +13,8 @@ At the start of each month we'll tell you how Goodstuff is doing - number of pat
 
 ## Expenses for the Month
 * $55 for web and file hosting
+
+*We have other expenses (domain name, occasional gear/software licenses, etc.) but for the purposes of these posts we're just tracking our ongoing monthly expenses.*
 
 ## Patreon Campaigns
 * [Goodstuff](https://www.patreon.com/goodstuff) - not currently active. Coming soon!
