@@ -1,6 +1,9 @@
 ---
-title: 'Goodstuff Monthly: March 2017'
+title: "\U0001F522 Goodstuff Monthly: March 2017"
 date: 2017-04-07 10:16:00 -06:00
+tags:
+- goodstuffmonthly
+layout: default
 ---
 
 As part of [our relaunch](https://goodstuff.fm/2017/03/11/goodstuff-v3/) we thought we'd be a little more public with things podcasters often tend to be a little shy about sharing: numbers and stats.
