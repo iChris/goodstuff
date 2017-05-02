@@ -18,23 +18,22 @@ At the start of each month we'll tell you how Goodstuff is doing - number of pat
 * [Goodstuff](https://www.patreon.com/goodstuff) - not currently active. Coming soon!
 * [3 Guys 3 Questions](https://www.patreon.com/3g3q) - 15 patrons, $45 per month
 * [iChris](https://www.patreon.com/ichris) - 20 patrons, $95 per month
-* [Morning Show](https://www.patreon.com/morningshow) - shut down for now.
 
 Currently $140/month income via patron support. Same as the [previous month](https://goodstuff.fm/2017/04/07/goodstuff-monthly-march-2017/).
 
 ## Site Stats
-* Our analytics code wasn't properly installed until the first week of April, 2017.
-* In the past: top traffic sources: [atu2.com](http://atu2.com), direct, organic search
-
-![Goodstuff 2017-04 Stats.jpg](/uploads/Goodstuff%202017-04%20Stats.jpg)
-
-* Acquisition details for March.
+The April numbers for Goodstuff.FM are only valid for April 7-30. According to Google Analytics:
+* 1,001 unique visitors with 2,378 pageviews
+* 64% new, 36% returning
+* 55% used Chrome, 21% used Safari, 24% used other browsers
+* 61% on desktop, 33% on mobile, 6% on tablet
+* 36% on Windows, 23% on iOS, 21% on MacOS, 19% on Android, 1% on Linux
+* 81% male, 19% female (reporting on 61% of sessions)
 
 ## Feed Stats
 * 10,880 subscribers to all shows
 * [atU2](/atu2/) holds the top spot for most subscribers
 
 # Any Questions?
-
 * You can discuss this in our [subreddit](#) or <a href="mailto:contact@goodstuff.fm">email us</a>.
 * Interested in sponsor the shows on Goodstuff? [Details here](https://goodstuff.fm/advertise/).
