@@ -1,6 +1,7 @@
 ---
-title: 'Goodstuff Monthly: April 2017'
-date: 2017-05-01 09:38:00 -06:00
+title: "\U0001F579 Goodstuff Monthly: April 2017"
+date: 2017-05-02 09:38:00 -06:00
+image: "/uploads/2017-04-goodstuffmonthly.jpg"
 ---
 
 At the start of each month we'll tell you how Goodstuff is doing - number of patrons, listeners, site visitors, and anything else you'd like to know.
@@ -32,8 +33,8 @@ The April numbers for Goodstuff.FM are only valid for April 7-30. According to G
 
 ## Feed Stats
 * 10,880 subscribers to all shows
-* [atU2](/atu2/) holds the top spot for most subscribers
+* [atU2](/atu2/) holds the top spot for most subscribers in April
 
 # Any Questions?
-* You can discuss this in our [subreddit](#) or <a href="mailto:contact@goodstuff.fm">email us</a>.
+* You can discuss this in our [subreddit](https://www.reddit.com/r/Goodstuff_fm/comments/68u85h/goodstuff_monthly_for_april_2017/) or <a href="mailto:contact@goodstuff.fm">email us</a>.
 * Interested in sponsor the shows on Goodstuff? [Details here](https://goodstuff.fm/advertise/).
