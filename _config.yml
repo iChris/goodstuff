@@ -87,12 +87,13 @@ collections:
   uploads:
     title: Uploads
     output: true
+url: https://goodstuff.fm
 podcast_subtitle: A network of good shows with good people doing good things
-podcast-url: http://goodstuff.fm
+podcast-url: https://goodstuff.fm
 podcast_email: contact@goodstuff.fm
 podcast_owner: Goodstuff.FM
 itunes-subtitle: A network of good shows with good people doing good things
-itunes-url: http://goodstuff.fm
+itunes-url: https://goodstuff.fm
 itunes-email: contact@goodstuff.fm
 itunes-lang: EN
 itunes-author: Goodstuff.FM
