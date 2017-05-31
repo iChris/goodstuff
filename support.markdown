@@ -1,8 +1,8 @@
 ---
 title: Support Us
 date: 2017-01-30 23:01:00 -06:00
-description: Support Goodstuff hosts directly, leave a review, or click and/or buy
-  from these links. Either way, you'll be supporting Goodstuff. You win, we win. Everybody
+description: Support Goodstuff hosts directly, leave a review, and click or buy from
+  these links. Either way, you'll be supporting Goodstuff. You win, we win. Everybody
   wins!
 layout: default
 ---
@@ -28,6 +28,9 @@ No, not like the road. Like the way you graciously give your time in an effort t
 # Stuff We Like
 
 Click and/or buy from these links and you'll be supporting Goodstuff as well. You win, we win. Everybody wins. (Except for the nazis. They'll never win.)
+
+## [Sudden ⚡ Coffee →](http://go.referralcandy.com/share/5X24RTL)
+Sudden Coffee is 100% real, instant coffee that can be brewed in hot or cold water. It's quick and efficient for those of you who need a second cup of the day or host a morning show at 7AM. It's hand-packed into a single-serving tube that you can take anywhere. We love it! **Get $5 off your first month by using our link.**
 
 ## [Exist →](https://exist.io/?referred_by=kyle)
 By combining data from services you already use, Exist can help you understand what makes you more happy, productive, and active. Bring your activity from your phone or fitness tracker, and add other services like your calendar for greater context on what you're up to. *Get 2 months free with our link!*
