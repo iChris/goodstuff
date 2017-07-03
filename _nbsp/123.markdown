@@ -43,7 +43,7 @@ layout: episode
 * [European Union drops roaming charges](https://www.wired.co.uk/article/european-union-mobile-roaming-charges)
 * [Google Trends as Life Advice](http://cultureby.com/2017/06/google-trends-as-life-advice.html)
 * [Mozilla Prize to Decentralize the Web](https://blog.mozilla.org/blog/2017/06/21/2-million-prize-decentralize-web-apply-today/)
-* [Boeing Testing Self Driing Planes](http://www.chicagotribune.com/g00/business/ct-boeing-self-flying-planes-20170621-story.html?i10c.referrer=https%3A%2F%2Fwww.google.com%2F)
+* [Boeing Testing Self Driving Planes](http://www.chicagotribune.com/g00/business/ct-boeing-self-flying-planes-20170621-story.html?i10c.referrer=https%3A%2F%2Fwww.google.com%2F)
 * [Non Breaking Space Show on TuneIn](http://tunein.com/radio/Non-Breaking-Space-Show-p885155/)
 * [Non Breaking Space Show for Android](http://subscribeonandroid.com/feeds.goodstuff.fm/nbsp)
 * [Non Breaking Space Show on Google Play](https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Iw5ik6iwalo5vmda5rqyrotdney?t%3DNon_Breaking_Space_Show%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16)
