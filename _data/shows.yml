@@ -19,7 +19,8 @@ highcontrast:
   rss: http://feeds.goodstuff.fm/highcontrast
   itunes: https://itunes.apple.com/us/podcast/high-contrast/id1251036231
   pocketcasts: http://pca.st/xfk8
-  overcast:
+  overcast: https://overcast.fm/itunes1251036231/high-contrast
+  googleplay: 
 wts:
   name: Way Too Seriously
   lang: EN
@@ -41,7 +42,8 @@ wts:
   rss: http://feeds.goodstuff.fm/wts
   itunes: https://itunes.apple.com/us/podcast/way-too-seriously/id1250996790
   pocketcasts: http://pca.st/I80b
-  overcast:
+  overcast: https://overcast.fm/itunes1250996790/way-too-seriously
+  googleplay: https://play.google.com/music/m/Isowczgcedvo5o2xuhd3hrkrzou?t%3DWay_Too_Seriously
 3g3q:
   name: 3 Guys 3 Questions
   lang: EN
@@ -86,6 +88,7 @@ dailyish:
   itunes: https://itunes.apple.com/ca/podcast/pdcst/id815675012
   pocketcasts: http://pca.st/Vifv
   overcast: https://overcast.fm/itunes815675012/daily-ish
+  googleplay: https://play.google.com/music/m/Isoh4bno3w346hvrjjyv5hea6ny?t%3DDaily(ish)
 morningshow:
   name: The Goodstuff Morning Show
   collection: morningshow
@@ -143,6 +146,7 @@ grownups:
   itunes: https://itunes.apple.com/us/podcast/i-guess-were-grown-ups-now/id920093038?mt=2
   pocketcasts: http://pca.st/OEf0
   overcast: https://overcast.fm/itunes920093038/i-guess-were-grown-ups-now
+  googleplay: https://play.google.com/music/m/I6fldt6rmtywtd4xefo3rx4thri?t%3DI_Guess_We're_Grown-Ups_Now
 nbsp:
   explicit: no
   name: Non Breaking Space Show
@@ -206,6 +210,7 @@ atu2:
   itunes: https://itunes.apple.com/ca/podcast/the-atu2-podcast/id1018994132?mt=2
   pocketcasts: http://pca.st/9jwK
   overcast: https://overcast.fm/itunes1018994132/the-atu2-podcast
+  googleplay: https://play.google.com/music/m/Iiwbn6j3tbkmxw3yq2qff5x2fsq?t%3DThe_atU2_Podcast
 aux:
   name: Auxiliary
   lang: EN
@@ -259,6 +264,7 @@ neverdigdown:
   itunes: https://itunes.apple.com/us/podcast/never-dig-down/id902068369?mt=2
   pocketcasts: http://pca.st/5YwG
   overcast: https://overcast.fm/itunes902068369/never-dig-down
+  googleplay: https://play.google.com/music/m/Ippwbv4xlc3yxpltuagzp2p2ynq?t%3DNever_Dig_Down
 smym:
   name: Show Me Your Mic
   lang: EN
@@ -281,6 +287,7 @@ smym:
   itunes: https://geo.itunes.apple.com/ca/podcast/show-me-your-mic/id602836998?mt=2&at=10l4Ki
   pocketcasts: http://pca.st/M3P3
   overcast: https://overcast.fm/itunes602836998/show-me-your-mic
+  googleplay: https://play.google.com/music/m/Irschj4eplpfhhezdkmwanrroqy?t%3DShow_Me_Your_Mic
 specials:
   name: Goodstuff Specials
   lang: EN
