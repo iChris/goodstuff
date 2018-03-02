@@ -1,12 +1,10 @@
 ---
-title: Peanut Butter Lovers
-date: 2018-03-01 13:11:00 -06:00
-episode: 2
-anchor: https://anchor.fm/todaysspecial/embed/episodes/Peanut-Butter-Lovers-e14lae/a-a2ifes
-description: Whether you like it crunchy, chunky, crispy, smooth, or soupy, we're
-  here to celebrate everyone's favorite legume butter!
+title: Banana Cream Pie
+date: 2018-03-02 13:55:00 -06:00
 show: todaysspecial
-image: "/uploads/todaysspecial-1.jpg"
+episode: 3
+anchor: https://anchor.fm/todaysspecial/embed/episodes/Banana-Cream-Pie-e14qa3
+description: 
 layout: episode
 ---
 
