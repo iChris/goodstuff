@@ -101,6 +101,13 @@ collections:
     permalink: "/atu2/:path"
     live: false
     retired: false
+  todaysspecial:
+    title: Today's Special
+    output: true
+    permalink: "/todaysspecial/:path"
+    slug: todaysspecial
+    retired: false
+    live: false
   uploads:
     title: Uploads
     output: true
