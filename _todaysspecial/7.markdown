@@ -1,20 +1,20 @@
 ---
-title: Chicken Noodle Soup
-date: 2018-03-13 08:00:00 -06:00
-position: 2
+title: Pears Hélène
+date: 2018-03-15 08:00:00 -06:00
+published: false
+position: 1
 show: todaysspecial
-anchor: https://anchor.fm/todaysspecial/embed/episodes/Chicken-Soup-e15p58/a-a2l4u9
-episode: 5
-description: When your intestines are like noodles and Eric, the scientist, won't
-  stop eating soup.
+episode: 7
+description: So many pears, so little time! Actually, 3,000 is quite a lot of pear
+  varieties so even if you ate one per day that'd still be at least a few years.
 layout: episode
 ---
 
-* [March 13 – Chicken Noodle Soup Day - Foodimentary - National Food Holidays](https://foodimentary.com/2012/03/13/march-13-chicken-noodle-soup-day/)
-
-* [Chicken soup - Wikipedia](https://en.wikipedia.org/wiki/Chicken_soup)
+* [MARCH 15TH, 2013 – NATIONAL PEARS HELENE DAY – NATIONAL EVERYTHING YOU THINK IS WRONG DAY - National Day Calendar](https://nationaldaycalendar.com/2013/03/14/march-15th-2013-national-pears-helene-day-national-everything-you-think-is-wrong-day/)
 
 ***
+
+
 
 ## Support Us
 *Want to support the show?* Visit our [Support page](https://goodstuff.fm/support) to help make this show possible!

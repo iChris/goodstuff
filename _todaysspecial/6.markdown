@@ -1,18 +1,16 @@
 ---
-title: Chicken Noodle Soup
-date: 2018-03-13 08:00:00 -06:00
-position: 2
+title: Pie
+date: 2018-03-14 08:00:00 -06:00
+published: false
 show: todaysspecial
-anchor: https://anchor.fm/todaysspecial/embed/episodes/Chicken-Soup-e15p58/a-a2l4u9
-episode: 5
-description: When your intestines are like noodles and Eric, the scientist, won't
-  stop eating soup.
+description: 3.141592653589793
+episode: 6
 layout: episode
 ---
 
-* [March 13 – Chicken Noodle Soup Day - Foodimentary - National Food Holidays](https://foodimentary.com/2012/03/13/march-13-chicken-noodle-soup-day/)
+* [The History of Pie from Egypt to Greece, Rome, Europe and Now – everythingPIES.com](https://www.everythingpies.com/history-of-pie/#pieworld)
 
-* [Chicken soup - Wikipedia](https://en.wikipedia.org/wiki/Chicken_soup)
+* [A Brief History of Pie - Time](http://time.com/3958057/history-of-pie/)
 
 ***
 
