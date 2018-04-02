@@ -1,12 +1,12 @@
 ---
-title: Artichoke Hearts
-date: 2018-03-16 08:00:00 -06:00
-position: 13
+title: Chips and Dip
+date: 2018-03-23 08:00:00 -06:00
+position: 7
 show: todaysspecial
-description: Whether you dip them in mayo, ketchup, or even store them in empty Pringles
-  cans, we won't judge.
-episode: 8
-anchor: https://anchor.fm/todaysspecial/embed/episodes/Artichoke-Heart-e16evd/a-a2mtqu
+description: What's that perfect chip to dip ratio? What even is a dip? Is chowder
+  a dip? We answer the HARD questions.
+episode: 13
+anchor: https://anchor.fm/todaysspecial/embed/episodes/Chips-and-Dip-e17g88/a-a2pkim
 layout: episode
 ---
 

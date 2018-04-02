@@ -1,14 +1,15 @@
 ---
-title: Banana Cream Pie
-date: 2018-03-02 13:55:00 -06:00
-position: 18
+title: Lemon Chiffon Cake
+date: 2018-03-29 08:00:00 -06:00
+position: 10
 show: todaysspecial
-episode: 3
-anchor: https://anchor.fm/todaysspecial/embed/episodes/Banana-Cream-Pie-e14qa3
-description: Bananas, or more properly "naners", are a vital component in Today's
-  Special!
+description: Please don't listen to Kenny. He is NOT a lemon expert.
+episode: 17
+anchor: https://anchor.fm/todaysspecial/embed/episodes/Lemon-Chiffon-Cake-e18fcp/a-a2s9hg
 layout: episode
 ---
+
+
 
 ## Support Us
 *Want to support the show?* Visit our [Support page](https://goodstuff.fm/support) to help make this show possible!

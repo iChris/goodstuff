@@ -1,13 +1,12 @@
 ---
-title: Artichoke Hearts
-date: 2018-03-16 08:00:00 -06:00
-position: 13
+title: Spinach
+date: 2018-03-26 08:00:00 -06:00
+position: 8
+episode: 14
 show: todaysspecial
-description: Whether you dip them in mayo, ketchup, or even store them in empty Pringles
-  cans, we won't judge.
-episode: 8
-anchor: https://anchor.fm/todaysspecial/embed/episodes/Artichoke-Heart-e16evd/a-a2mtqu
-layout: episode
+description: <iframe src="https://anchor.fm/todaysspecial/embed/episodes/Spinach-e182t5/a-a2r9m8"
+  height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+anchor: https://anchor.fm/todaysspecial/embed/episodes/Spinach-e182t5/a-a2r9m8
 ---
 
 

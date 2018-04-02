@@ -1,14 +1,15 @@
 ---
-title: Banana Cream Pie
-date: 2018-03-02 13:55:00 -06:00
-position: 18
+title: French Bread
+date: 2018-03-21 08:00:00 -06:00
+position: 5
 show: todaysspecial
-episode: 3
-anchor: https://anchor.fm/todaysspecial/embed/episodes/Banana-Cream-Pie-e14qa3
-description: Bananas, or more properly "naners", are a vital component in Today's
-  Special!
+description: The French take their bread very seriously! And you should too!
+episode: 11
+anchor: https://anchor.fm/todaysspecial/embed/episodes/French-Bread-e179s4/a-a2p4n1
 layout: episode
 ---
+
+
 
 ## Support Us
 *Want to support the show?* Visit our [Support page](https://goodstuff.fm/support) to help make this show possible!
