@@ -1,11 +1,11 @@
 ---
-title: Peanut Butter & Jelly
-date: 2018-04-02 08:00:00 -06:00
-position: 2
+title: Caramel Popcorn
+date: 2018-04-06 08:00:00 -06:00
+published: false
 show: todaysspecial
-description: Crunchy? Smooth? Quantum? How do you like your Whole Foods Branded Bread
-  Dispenser?
-episode: 19
+description: You say 'ca-ra-mel', we say 'popcorn is okay but have you had the unpopped
+  kernels?'
+episode: 23
 anchor: 
 layout: episode
 ---
