@@ -138,6 +138,10 @@ body {
       background: #292D36;
       width: 100%;
     }
+    &__gradient {
+      background: linear-gradient(to top right, #8BC6EC, #7166FF);
+      width: 100%;
+    }
   }
 
   &__banner {
