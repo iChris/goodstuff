@@ -1,14 +1,13 @@
 ---
 title: S10:E01 - "Teen Court"
-date: 2018-05-22 17:00:00 -06:00
-published: false
-position: 2
-mp3: 
-show: 3g3q
-description: Sauce estimation, depression, and tarps.
-sponsor: Our Parents’ Expectations
+date: 2018-05-23 14:00:00 -06:00
 episode: 140
+description: Sauce estimation, depression, and tarps.
+show: 3g3q
+slug: 140
+mp3: https://media.transistor.fm/365d4cfe.mp3
 image: "/uploads/3G3Q%20-%20S10E01%20-%20Episode%20Art%20-%20S.jpg"
+sponsor: Our Parents’ Expectations
 layout: episode
 ---
 
