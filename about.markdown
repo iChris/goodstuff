@@ -9,7 +9,9 @@ description: Goodstuff was created as a home for podcasts that are entertaining,
 layout: default
 ---
 
-Goodstuff was created as a home for podcasts that are entertaining, informative, and fun. Our goal is to create a vibrant community of podcasters who love to learn about the world around them and share that with an equally awesome group of listeners.
+Goodstuff was created as a home for podcasts that are entertaining, informative, and fun. Our goal is to create a vibrant community of podcasters who love to learn about the world around them and share that with an equally awesome group of listeners. A playground for digital creative types.
+
+Our position at Goodstuff and our privilege in the industry put us in a spot where we can create content uninhibited. We'd rather be someone who listens to what listeners want to hear. Who they want to hear. And how we might be able to provide a platform for new folks to create.
 
 We've been podcasting since March, 2014. Thank you so much for listening.
 
@@ -17,4 +19,4 @@ Goodstuff.fm is run by Chris Enns and Kyle Roderick and they're joined by a grou
 
 Kyle Roderick lives in sunny California where he works as a product designer for a company that loves to talk about beer.
 
-Chris Enns lives in wintery Saskatchewan where he runs a web design and podcast production company 🍋 out of his snow cave.
+Chris Enns lives in wintery Saskatchewan, Canada where he runs a web design and podcast production company 🍋 out of his snow cave.
