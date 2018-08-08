@@ -1,10 +1,11 @@
 ---
-title: Zucchini
-date: 2018-08-08 04:00:00 -06:00
-description: I'm Kyle Roderick and I'm Zuccenny Roderick
+title: Rice Pudding
+date: 2018-08-09 04:00:00 -06:00
+published: false
 show: todaysspecial
-episode: 46
-mp3: https://media.transistor.fm/771068e5.mp3
+episode: 47
+mp3: https://media.transistor.fm/795cfd2f.mp3
+description: Hot or cold but nowhere in between!
 layout: episode
 ---
 
